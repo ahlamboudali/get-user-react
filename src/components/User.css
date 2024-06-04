@@ -1,0 +1,33 @@
+.user-card {
+    min-width: 400px;
+    background-color: #fff;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+    
+
+.user-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+
+.user-card h2 {
+    color: darkcyan;
+    text-align: center;
+}
+
+.address,
+.company {
+    margin-top: 15px;
+    padding-left: 15px;
+    
+}
+
+h3 {
+    color: darkcyan;
+}
